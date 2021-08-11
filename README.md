@@ -17,7 +17,7 @@ This plugin is inspired by [vim-xcode-preview](https://github.com/tokorom/vim-xc
 If you use [vim-plug](https://github.com/tokorom/vim-xcode-preview), then add the following line to your vimrc file:
 
 ```
-Plug 'gonzoooooo/vim-xcode-control'
+Plug 'gonzoooooo/vim-xcode-control', { 'for': ['swift', 'objc'] }
 ```
 
 and then use `:PlugInstall`. Or, you can use any other plugin manager.
